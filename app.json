@@ -21,10 +21,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.paul.basics"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "scheme": "basics",
+  
+      "web": {
+        "bundler": "metro"
+      }
     }
   }
 }
